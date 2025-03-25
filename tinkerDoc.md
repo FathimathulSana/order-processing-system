@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Http;
 
 Http::post('http://127.0.0.1:8000/api/place-orders', [
     'items' => [
-        ['product_id' => 1, 'quantity' => 1],
+        ['product_id' => 2, 'quantity' => 2],
         ['product_id' => 3, 'quantity' => 2]
     ]
 ]);
